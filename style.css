@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    min-height:100vh;
+    width:100%;
+    /* background-color: rgba(255, 166, 0, 0.334); */
+    background-color: #297fb92c;
+    /* background-color: rgba(128, 128, 128, 0.167); */
+    /* display:none; */
+}
+.heading{
+    /* border:2px solid red; */
+    position:sticky;
+    top:0;
+    /* background-color: black; */
+    padding:40px 155px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.177);
+    background-color: white;
+    letter-spacing: 1px;    
+    font-size:32px;
+}
+.icon{
+    /* border:2px solid red; */
+    position: sticky;
+    top:100px;
+    z-index:5;
+    /* width:25%; */
+    text-align:right;
+    padding:40px 185px
+}
+.icon i{
+    /* border:2px solid red; */
+    display:inline-block;
+    margin:0 8px;
+    padding:15px;
+    /* box-shadow:0px 0px 5px black; */
+    /* background-color: black; */
+    background-color:#2980b9;
+    border-radius:100px;
+    color:white;
+    cursor:pointer;
+}
+.icon span{
+    letter-spacing: 1px;
+    font-size:16px;
+    font-weight:400;
+    /* color:#2980b9; */
+    color:black;
+    cursor:pointer;
+    /* border:2px solid red; */
+    padding: 12px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.43);
+}
+.data{
+    /* border:2px solid red; */
+    max-width:1200px;
+    margin:auto;
+    margin-left:150px;
+    margin-top:15px;
+    text-align: center;
+    padding:25px;
+    /* z-index:-1; */
+}
+.box{
+    display:inline-block;
+    /* border:2px solid rgba(0, 0, 0, 0.495); */
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.314);
+    min-width:320px;
+    min-height:450px;
+    border-radius:25px;
+    background-color: white;
+    margin:18px;
+    transition:all .3s ease-in-out;
+    /* margin:25px */
+}
+.box h2{
+    color:#2980b9;
+    text-transform:capitalize;
+    font-weight:400;
+    border-bottom:1px solid rgba(128, 128, 128, 0.263);
+    text-align: center;
+    padding:10px 0;
+    z-index: 3;
+    /* border:2px solid red; */
+}
+.box .items{
+    /* border:2px solid red; */
+    margin:5px 0;
+    padding:15px;
+    text-align: left;
+    display:flex;
+    align-items: center;
+}
+.box #text{
+    display:inline-block;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size:18px;
+    margin-left:15px;
+
+}
+.strike{
+    text-decoration: line-through;
+    color:red;
+    font-weight: 500;
+}
+.items .check{
+    width:30px;
+    height:30px;
+
+}
+.box:hover{
+    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.365);
+    cursor:pointer;
+    transform:scale(1.1);
+}
+.popUp{
+    position:absolute;
+    /* border:2px solid red; */
+    width:100%;
+    min-height:100%;
+    background-color: rgba(2, 2, 2, 0.532);
+}
+.childPopUp{
+    position:absolute;
+    /* border:2px solid red; */
+    width:100%;
+    min-height:100%;
+    background-color: rgba(2, 2, 2, 0.532);
+    z-index:5;
+}
+.dialog-box{
+    /* border:2px solid red; */
+    /* margin:20px 15px; */
+    width:450px;
+    height:220px;
+    background-color: white;
+    border-radius: 15px;
+    margin:250px auto;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.137);
+    /* padding:12px 25px; */
+}
+.hide{
+    display:none;
+}
+::placeholder{
+    letter-spacing: .5px;
+    word-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+}
+.dialog-box input{
+    /* border: 2px solid red; */
+    background-color: rgba(128, 128, 128, 0.112);
+    /* width:100%; */
+    display: block;
+    width:90%;
+    margin:25px auto;
+    border:none;
+    outline:none;
+    border-radius:6px;
+    padding:11px 10px;
+
+}
+.dialog-box button{
+    display:inline-block;
+    border:none;
+    outline: none;
+    padding:8px 18px;
+    background-color: #3ea9f0;
+    color: white;
+    border-radius:5px;
+    margin-left:300px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    /* margin-right:0; */
+}
+.head{
+    padding:12px 25px;
+    border-bottom:.5px solid rgba(128, 128, 128, 0.329);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strike{
+    font-size: 18px;
+    color:red;
+    text-decoration: line-through;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./style.js" defer></script>
+</head>
+<body>
+    <!-- ########## child dialog ######### -->
+    <div class="childPopUp hide">
+        <div class="dialog-box">
+            <div class="head">
+                <h2 style="letter-spacing:.2px;font-size:20px">Add New Item Please !!!</h2>
+                <i class="fa-solid fa-xmark cross" style="cursor:pointer;display:inline-block;font-size:28px;color:rgba(128, 128, 128, 0.777)"></i>
+            </div>
+            <input type="text" name="" placeholder="Enter your item here Sir !!!  " id="" class="text">
+            <button class="hit">Add New Task</button>
+        </div>
+    </div>
+    <!-- ########## child dialog end here ########## -->
+    <!-- ############# -->
+    <div class="popUp hide">
+        <div class="dialog-box">
+            <div class="head">
+                <h2 style="letter-spacing:.2px;font-size:20px">Add New Task</h2>
+                <i class="fa-solid fa-xmark cross" style="cursor:pointer;display:inline-block;font-size:28px;color:rgba(128, 128, 128, 0.777)"></i>
+            </div>
+            <input type="text" name="" placeholder="Enter your task here " id="" class="text">
+            <button class="hit">Add New Task</button>
+        </div>
+    </div>
+    <!-- ############### -->
+    <div class="container">
+        <h2 class="heading" style="background-color:rgba(0, 0, 0, 0.871);color:white;">Tasks <span style="color:#2980b9" id="text">List</span></h2>
+        <div class="icon">
+            <i class="fa-solid fa-plus"></i>
+            <span id="k1">Add New Task</span>
+        </div>
+        <div class="data">
+           <!-- <div class="box">
+                <h2>Sample Data</h2>
+                <div class="items">
+                    <input type="checkbox" name="" id="" class="check">
+                    <span id="text">sample task </span>
+                </div>
+           </div> -->
+           
+        </div>
+    </div>
+</body>
+</html>
